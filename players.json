@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "alias": "apEX",
+        "team": "Team Vitality",
+        "nationality": "French"
+    },
+    {
+        "id": "2",
+        "alias": "rain",
+        "team": "FaZe",
+        "nationality": "Norwegian"
+    },
+    {
+        "id": "3",
+        "alias": "cadiaN",
+        "team": "Heroic",
+        "nationality": "Danish"
+    },
+    {
+        "id": "4",
+        "alias": "mezii",
+        "team": "fnatic",
+        "nationality": "British"
+    }
+]
