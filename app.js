@@ -36,7 +36,21 @@ app.put('/api/players/:id', (req, res) => {
     player.team = req.body.team;
 
     fs.writeFile('./players.json', JSON.stringify(json, null, 2), (err) => {
-      res.status(201).send(player);
+      res.status(200).send(player);
+    });
+  });
+});
+
+// DELETE endpoint
+app.delete('/api/players/:id', (req, res) => {
+  fs.readFile('./players.json', (err, data) => {
+    let json = JSON.parse(data);
+
+    let player = json.find((player) => player.id == (req.params.id));
+
+    json.splice(json.indexOf(player), 1);
+    fs.writeFile('./players.json', JSON.stringify(json, null, 2), () => {
+      res.status(200).send(player);
     });
   });
 });
