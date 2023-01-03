@@ -18,7 +18,7 @@ app.post('/api/players', (req, res) => {
       let json = JSON.parse(data);
       json.push(req.body);
 
-      fs.writeFile('./players.json', JSON.stringify(json), (err) => {
+      fs.writeFile('./players.json', JSON.stringify(json, null, 2), (err) => {
         res.status(201).send(json);
       })
     });
