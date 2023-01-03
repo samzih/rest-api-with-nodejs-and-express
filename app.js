@@ -32,7 +32,7 @@ app.put('/api/players/:id', (req, res) => {
     // Tries to find() the player id
     let player = json.find((player) => player.id == (req.params.id));
 
-    // Pick a new team for the spefcified id parameter
+    // Pick a new team for the specified id parameter
     player.team = req.body.team;
 
     fs.writeFile('./players.json', JSON.stringify(json, null, 2), (err) => {
