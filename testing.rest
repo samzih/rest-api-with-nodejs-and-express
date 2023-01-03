@@ -28,3 +28,11 @@ Content-Type: application/json
 {
     "team": "Astralis"
 }
+
+
+
+###
+
+
+
+DELETE http://localhost:3000/api/players/5
