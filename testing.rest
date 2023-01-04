@@ -1,3 +1,4 @@
+// Reads all the players
 GET http://localhost:3000/api/players
 
 
@@ -6,6 +7,7 @@ GET http://localhost:3000/api/players
 
 
 
+// Creates a player object
 POST http://localhost:3000/api/players
 Content-Type: application/json
 
@@ -22,6 +24,7 @@ Content-Type: application/json
 
 
 
+// Updates the property value of a specific player based on id
 PUT http://localhost:3000/api/players/5
 Content-Type: application/json
 
@@ -35,4 +38,5 @@ Content-Type: application/json
 
 
 
+// Delete a specific player object based on id
 DELETE http://localhost:3000/api/players/5
