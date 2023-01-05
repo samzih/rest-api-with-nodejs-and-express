@@ -3,7 +3,7 @@
 ### Länk till GitHub repo: https://github.com/samzih/rest-api-with-nodejs-and-express
 
 ### Beskrivning av projektet:
-Denna applikation hanterar en JSON-fil (istället för en riktig databas) med diverse information om ett utbud olika Counter-Strike spelare. Applikationen har en backend API som kan testas och användas med hjälp av den inkluderande .rest-filen (installera REST-Client tillägget för VS Code). De HTTP anrop som skickas med rest-filen kommer nå olika routes (med callback funktioner a.k.a. endpoints) som därerfter kan återge, lägga till, uppdatera samt ta bort data från JSON-filen.
+Denna applikation hanterar en JSON-fil (istället för en riktig databas) med diverse information om ett utbud olika Counter-Strike spelare. Applikationen har en backend API som kan testas och användas med hjälp av den inkluderande .rest-filen (installera REST-Client tillägget för VS Code). De HTTP anrop som skickas med rest-filen kommer nå olika routes som därerfter kan återge, lägga till, uppdatera samt ta bort data från JSON-filen.
 
 ### Krav som är uppfyllda:
 ***Jag har uppfyllt följande krav för godkänt***
